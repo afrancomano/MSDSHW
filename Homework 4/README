@@ -1,9 +1,11 @@
-This is the README file for Homework 4
-
 Purpose:
+The Homework 4 folder repository holds MSDS Week #4 homework assignment files for Doing Data Science Summer 2018.
 
 Topics:
+The overall topic addressed here is Doing Data Science in terms of best practices and the set of tools that support creating reproducible research in either academia or industry.
 
 Sources:
+In this repository, the overall approach to creating reproducible research is based on both the SMU MSDS curriculum and the principles presented by Christopher Gandrud in his text "Reproducible Research with R and RStudio." A variety of data sources will be utilized for the homework assignments and will be credited accordingly.
 
 Contact Information:
+Please contact afrancomano@smu.edu with any questions regarding the contents of this repository.
