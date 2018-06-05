@@ -1,0 +1,89 @@
+---
+title: "Doing Data Science - section 403 - Unit 4 - Live Assignment #4"
+author: "AFrancomano"
+date: "June 5, 2018"
+output: 
+  html_document:
+    keep_md: true
+---
+
+## Question 1A + 1B + 1C + 1D:  R Code and output below
+
+FiveThirtyEight Data (30 points): Navigate on GitHub to https://github.com/rudeboybert/fivethirtyeight and read README.md. Seriously, it will include everything you need. 
+
+a.	Install the fivethirtyeight package.
+
+b.	In the listing of Data sets in package 'fivethirtyeight,' assign the eighteenth data set to an object 'df.' [==> per TA use college_all_ages dataset]
+
+c.	Use a more detailed list of the data sets to write out the URL in a comment to the related news story.
+
+d.	Using R command(s), give the dimensions and column names of this data frame.
+
+```{r echo=TRUE}
+#a.
+install.packages("fivethirtyeight", repos='http://cran.revolutionanalytics.com/')
+data(package="fivethirtyeight")
+#b.
+load("C:/users/anne/downloads/college_all_ages.rda")
+df <- data.frame(college_all_ages)
+
+#c.  get more details and the URL for associated article
+vignette("fivethirtyeight", package="fivethirtyeight")
+```
+
+##
+The 9/12/2014 FiveThirtyEight article by Ben Casselman is entitled "The Economic Guide To Picking A College Major."
+
+It is located at http://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/
+
+The following statement struck me: "A new report from Burning Glass Technologies, an employment data company, finds that employers increasingly prefer applicants with bachelor's degrees even for jobs that don't traditionally require them."  I wonder why employers prefer degrees if the job has not required as such in the past. Does it merely make it easier for the employer because they won't need to sift through as many applicants, or are they assuming a college degree equates to better performance?   
+
+```{r echo=TRUE}
+#d. get dataframe dimensions and column names
+dim(df)
+colnames(df)
+
+```
+
+
+## Question 2A + 2B + 2C + 2D:  R Code and output below
+Data Summary (30 points): Use your newly assigned data frame for Question 2. 
+
+a.	Write an R command that gives you the column names of the data frame.  Right after that, write one that counts the number of columns but not rows.  Hint: The number should match one of your numbers in Question 1d for dimensions.
+
+b.	Generate a count of each unique major_category in the data frame.  I recommend using libraries to help.  I have demonstrated one briefly in live-session.  To be clear, this should look like a matrix or data frame containing the major_category and the frequency it occurs in the dataset.  Assign it to major_count.
+
+c.	To make things easier to read, put par(las=2) before your plot to make the text perpendicular to the axis.  Make a barplot of major_count.  Make sure to label the title with something informative (check the vignette if you need), label the x and y axis, and make it any color other than grey.  Assign the major_category labels to their respective bar.  Flip the barplot horizontally so that bars extend to the right, not upward.  All of these options can be done in a single pass of barplot(). Note: It's okay if it's wider than the preview pane.
+
+d.	Write the fivethirtyeight data to a csv file.  Make sure that it does not have row labels.
+
+```{r echo=TRUE}
+#a. Column names and Number of Columns
+colnames(df)
+length(colnames(df))
+
+#b. List of unique Major Categories and respective Count
+major_count <- table(df$major_category)
+major_count
+
+#c. Barplot output
+par(las=2)
+barplot(major_count, main = "Frequency of each Major Category", xlab="Count", ylab="Major Category", col="lightseagreen", horiz=TRUE)
+
+#d. Write df to .csv file
+write.csv(df, file="CollegeMajorData", row.names=FALSE)
+```
+
+## Question 3A + 3B + 3C + 3D:  Github link below
+Codebook (30 points):
+
+a.	Start a new repository on GitHub for your SMU MSDS homework.  On your local device, make sure there is a directory for Homework at the minimum; you are welcome to add whatever you would like to this repo in addition to your requirements here.
+
+b.	Create a README.md file which explains the purpose of the repository, the topics included, the sources for the material you post, and contact information in case of questions. Remember, the one in the root directory should be general.  You are welcome to make short READMEs for each assignment individually in other folders.
+
+c.	In one (or more) of the nested directories, post your RMarkdown script, HTML file, and data from 'fivethirtyeight.'  Make sure that in your README or elsewhere that you credit fivethirtyeight in some way.
+
+d.	In your RMarkdown script, please provide the link to this GitHub so the grader can see it.
+
+Please see github repo at https://github.com/afrancomano/MSDSHW
+
