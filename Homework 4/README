@@ -2,9 +2,12 @@ Purpose:
 The Homework 4 folder repository holds MSDS Week #4 homework assignment files for Doing Data Science Summer 2018.
 
 Topics:
-The focus of Unit 4 is Collaboration and Versioning.  The homework assignment allows the student to work with an online repository via the RStudio environment by exploring a particular dataset, examining and plotting the dataset, as well as setting up a github tool repository to practice providing information needed for well thought out codebooks.
+The focus of Unit 4 is Collaboration and Versioning.  The homework assignment allows the student to work with a new online package, online repository via the RStudio environment by exploring a particular dataset, examining and plotting the dataset, as well as setting up a github tool repository to practice providing information needed for well thought out codebooks.
+
 Sources:
-In this repository, the overall approach to creating reproducible research is based on both the SMU MSDS curriculum and the principles presented by Christopher Gandrud in his text "Reproducible Research with R and RStudio." A variety of data sources will be utilized for the homework assignments and will be credited accordingly.
+The online package and data source utilized for this assignment were ceated by from FiveThirtyEight.  The dataset is located at https://github.com/rudeboybert/fivethirtyeight/blob/master/data/college_all_ages.rda 
+
+
 
 Contact Information:
-Please contact afrancomano@smu.edu with any questions regarding the contents of this repository.
+Please contact afrancomano@smu.edu with any questions regarding the contents of the MSDSHW repository.
