@@ -1,0 +1,59 @@
+# DOING DATA SCIENCE LIVE SESSION ASSIGNMENT 4 -- ANNE FRANCOMANO
+#SWIRL - R PROGRAMMING
+#
+#MODULE 15
+
+
+> data(cars)
+
+> ?cars
+
+> head(cars)
+  speed dist
+1     4    2
+2     4   10
+3     7    4
+4     7   22
+5     8   16
+6     9   10
+
+> plot(cars)
+
+> ?plot
+
+> plot(x=cars$speed, y=cars$dist)
+
+> plot(y=cars$speed, x=cars$dist)
+
+> plot(x=cars$speed, y=cars$dist, xlab="Speed")
+
+> plot(x=cars$speed, y=cars$dist, ylab="Stopping Distance")
+
+> plot(x=cars$speed, y=cars$dist, xlab="Speed", ylab="Stopping Distance")
+
+> plot(cars, main="My Plot")
+
+> plot(cars, sub="My Plot Subtitle")
+
+> plot(cars, col=2)
+
+> plot(cars, xlim = c(10,15))
+
+> plot(cars, pch=2)
+
+> data(mtcars)
+
+> ?boxplot
+
+> boxplot(mpg~cyl, data=mtcars)
+|==================================================================================    |  96%
+
+> hist(mtcars$mpg)
+
+|====================================================================================  |  98%
+| In this lesson, you learned how to work with base graphics in R. The best place to go
+| from here is to study the ggplot2 package. If you want to explore other elements of
+| base graphics, then this web page
+| (http://www.ling.upenn.edu/~joseff/rstudy/week4.html) provides a useful overview.
+
+|======================================================================================| 100%
