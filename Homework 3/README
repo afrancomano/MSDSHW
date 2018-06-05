@@ -1,3 +1,13 @@
-This is the README file for Homework 3 folder
+Purpose:
+The Homework 3 folder repository holds MSDS Week #3 homework assignment files for Doing Data Science Summer 2018.
 
-Assignment Source Data is   https://github.com/rudeboybert/fivethirtyeight/blob/master/data/college_all_ages.rda  
+Topics:
+The focus of Unit 3 is File Management Basics. 
+
+Sources:
+The Titanic passenger data file (titanic.csv) utilized for this assignment was provided by the instructor.
+The Sleep study data file (sleep_data_01.csv) utilized for this assignment was provided by the University of Glasgow Research Institute and and is located at http://talklab.psy.gla.ac.uk/L1_labs/lab_1/homework/index.html.
+
+
+Contact Information:
+Please contact afrancomano@smu.edu with any questions regarding the contents of the MSDSHW repository.
