@@ -5,8 +5,7 @@ Topics:
 The focus of Unit 4 is Collaboration and Versioning.  The homework assignment allows the student to work with a new online package, online repository via the RStudio environment by exploring a particular dataset, examining and plotting the dataset, as well as setting up a github tool repository to practice providing information needed for well thought out codebooks.
 
 Sources:
-The online package and data source utilized for this assignment were ceated by from FiveThirtyEight.  The dataset is located at https://github.com/rudeboybert/fivethirtyeight/blob/master/data/college_all_ages.rda 
-
+The online package and data source utilized for this assignment were ceated by from FiveThirtyEight.  The college major category dataset is located at https://github.com/rudeboybert/fivethirtyeight/blob/master/data/college_all_ages.rda 
 
 
 Contact Information:
