@@ -1,6 +1,6 @@
 ---
 title: "Doing Data Science - section 403 - Unit 3 - Live Assignment #3"
-author: "Anne Francomano"
+author: "AFrancomano"
 date: "May 27, 2018"
 output: 
   html_document:
@@ -28,7 +28,7 @@ GitHub Cloning (20 points): Using Git, clone the following GitHub repository to 
 
     anne@lenovo-PC MINGW64 ~/git_repositories/Unit3SampleProject
     $ git init
-    Initialized empty Git repository in              C:/Users/anne/git_repositories/Unit3SampleProject/.git/
+    Initialized empty Git repository in              C:/Users/afrancomano/git_repositories/Unit3SampleProject/.git/
 
     anne@lenovo-PC MINGW64 ~/git_repositories/Unit3SampleProject (master)
     $ git add README.md
@@ -59,7 +59,7 @@ c.	Please use one apply function (to review: swirl() modules 11, 12) to output t
 ```{r echo=TRUE}
 
 # a. Set the working directory and read the titanic.csv file into R
-setwd ("C:/Users/anne/git_repositories/Unit3SampleProject")
+setwd ("C:/Users/afrancomano/git_repositories/Unit3SampleProject")
 df <- read.csv("titanic.csv", header=TRUE)
 
 # b. Counts of female and male passengers And plot frequency of each
