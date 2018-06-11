@@ -50,7 +50,7 @@ finalsort   Dataframe resulting from sorting the final dataframe in descending o
                   Total  (continuous integer; total number of newborns given this first name in 2015 and 2016 combined for the respective Gender) 
                   
 Girls       Dataframe resulting from taking a subset of rows from final dataset where the Gender field is F.
-            Row count = 26,550
+            Row count = 11,283
             Columns names and contents:   
                   FirstName (string; unique name within each Gender)
                   Gender (string: F)
