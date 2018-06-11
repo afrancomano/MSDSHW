@@ -6,4 +6,7 @@ This file contains Definitions of each object created in the RMarkdown File for 
 Objects:
 
 df    dataframe created based on importing semi-colon delimited text file yob2016.txt
-      Columns names and contents:   FirstName (string; unique name withing Gender), Gender (string: M or F), NumberofChildren2016 (continuous integer)
+      Columns names and contents:   
+            FirstName (string; unique name withing Gender)
+            Gender (string: M or F)
+            NumberofChildren2016 (continuous integer)
