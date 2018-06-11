@@ -26,3 +26,12 @@ y2015       dataframe created based on importing the comma delimited text file y
                   Gender (string: M or F)
                   NumberofChildren2015 (continuous integer;  count of number of newborns given this first name in 2015)         
          
+         
+final       dataframe created by merging y2015 and y2016, and adding a Total column 
+            Row count = 26,550
+            Columns names and contents:   
+                  FirstName (string; unique name within each Gender)
+                  Gender (string: M or F)
+                  NumberofChildren2015 (continuous integer;  count of number of newborns given this first name in 2015)
+                  NumberofChildren2016 (continuous integer;  count of number of newborns given this first name in 2016) 
+                  Total  (continuous integer;  total number of newborns given this first name in 2015 and 2016 combined) 
