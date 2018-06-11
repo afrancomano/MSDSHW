@@ -10,7 +10,7 @@ df          Dataframe created based on importing the semi-colon delimited text f
             Columns names and contents:   
                   FirstName (string; unique name within each Gender)
                   Gender (string: M or F)
-                  NumberofChildren2016 (continuous integer; count of number of newborns given this first name in 2016)
+                  NumberofChildren2016 (continuous integer; number of newborns given this first name in 2016 for the respective Gender)
             
 badentry    Assigned as the location of the invalid first name in the df dataset based on yob2016.txt
 
@@ -19,14 +19,14 @@ y2016       Dataframe resulting from removing the one invalid first name entry f
             Columns names and contents:   
                   FirstName (string; unique name within each Gender)
                   Gender (string: M or F)
-                  NumberofChildren2016 (continuous integer; count of number of newborns given this first name in 2016)
+                  NumberofChildren2016 (continuous integer; number of newborns given this first name in 2016 for the respective Gender)
 
 y2015       Dataframe created based on importing the comma delimited text file yob2015.txt
             Row count = 33,063
             Columns names and contents:   
                   FirstName (string; unique name within each Gender)
                   Gender (string: M or F)
-                  NumberofChildren2015 (continuous integer;  count of number of newborns given this first name in 2015)         
+                  NumberofChildren2015 (continuous integer; number of newborns given this first name in 2015 for the respective Gender)         
          
          
 final       Dataframe created by merging y2015 and y2016, and adding a Total column 
