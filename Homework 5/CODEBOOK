@@ -5,8 +5,19 @@ This file contains Definitions of each object created in the RMarkdown File for 
 
 Objects:
 
-df    dataframe created based on importing semi-colon delimited text file yob2016.txt
-      Columns names and contents:   
-            FirstName (string; unique name withing Gender)
-            Gender (string: M or F)
-            NumberofChildren2016 (continuous integer)
+df          dataframe created based on importing semi-colon delimited text file yob2016.txt
+            Row count = 32,869
+            Columns names and contents:   
+                  FirstName (string; unique name withing Gender)
+                  Gender (string: M or F)
+                  NumberofChildren2016 (continuous integer)
+            
+badentry    assigned the location of the invalid first name in the df dataset, originally from yob2016.txt.
+
+y2016       dataframe identical in structure to df;  
+            Row count = 32,869
+            Contains one less row than df, because the invalid first name entry was removed.
+
+
+            
+         
